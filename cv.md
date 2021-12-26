@@ -1,5 +1,5 @@
 # **Ina Klimenka**
-![Alt-photo](/photo1640464649%20(1).jpeg)
+![Alt-photo](/images/photo1640464649.jpg)
 ****
 ## ***Contact information:***
 ### *Location: Poland, Wroclaw*
