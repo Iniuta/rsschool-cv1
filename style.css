@@ -1,31 +1,24 @@
-
-body, html { 
-    margin : 0;
-    height: 100%;
+body,
+html {
+  margin: auto;
+  height: 100%;
 }
-
 
 .container {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-content: stretch;
   /* flex-wrap: wrap; */
   align-items: stretch;
   flex-basis: 100px;
   height: 100%;
-
 }
 .item {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   margin-top: 0%;
-  
-}
-.item1 {
-  display: flex;
-  margin-bottom: 0%;
   height: 100%;
 }
 
@@ -34,23 +27,23 @@ header {
   padding: 2rem;
   padding-top: 3rem;
   font-size: 110%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: left;
- 
+  /* height: 100%; */
 }
 .text-color {
-   color: rgba(225, 190, 231, 0.37);
-   padding-left: 9%;
-   font-size: 90%;
+  color: rgba(225, 190, 231, 0.37);
+  padding-left: 9%;
+  font-size: 90%;
 }
 
 .hight {
-    margin-bottom: 0;
-    color: rgba(225, 190, 231, 0.37);
-    font-size: 90%;
+  margin-bottom: 0;
+  color: rgba(225, 190, 231, 0.37);
+  font-size: 90%;
 }
 main {
-  background-color: rgba(0,0,0,.025);
+  background-color: rgba(255, 255, 240);
   padding-left: 10%;
   height: 100%;
 }
@@ -58,6 +51,7 @@ main {
   font-size: 200%;
   text-decoration: underline;
   color: rgba(66, 66, 66, 0.7);
+  padding-top: 3%;
 }
 .text {
   font-size: 120%;
@@ -66,7 +60,7 @@ main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .text-decoration {
-  text-decoration:underline;
+  text-decoration: underline;
   font-variant: small-caps;
   color: rgba(250, 219, 216, 0.3);
 }
@@ -76,8 +70,8 @@ h2 {
 }
 
 pre {
-  background-color: rgba(242, 215, 213, 0.5);
-  border-left: 8px solid rgba(230, 176, 170);
+  background-color: rgba(77, 182, 172, 0.1);
+  border-left: 8px solid rgba(0, 77, 64, 0.4);
   color: rgba(100, 30, 22, 0.8);
   padding: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,17 +79,27 @@ pre {
   font-variant: small-caps;
 }
 footer {
-  background-color: rgba(242, 215, 213, 0.2);
+  background-color: rgba(192, 192, 192, 0.8);
   padding: 1;
+  height: 100%;
 }
 .footer {
   /* padding-top: 10%; */
   color: rgba(66, 66, 66, 0.7);
-  text-decoration:underline;
+  text-decoration: underline;
   font-variant: small-caps;
   font-size: 19px;
-  animation: forwards;
+  /* animation: forwards; */
+  animation: color-change 5s infinite;
+
 }
+
+.content img {
+  float: right;
+  width: 10%;
+  height: 10%;
+}
+
 @keyframes color-change {
   0% {
     color: rgba(66, 66, 66, 0.7);
@@ -111,6 +115,4 @@ footer {
     color: rgba(66, 66, 66, 0.7);
   }
 }
-.footer {
-  animation: color-change 5s infinite;
-}
+
