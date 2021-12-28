@@ -1,34 +1,116 @@
 
-body{ 
+body, html { 
     margin : 0;
     height: 100%;
 }
 
 
-html {
-    height: 100%;
-}
-
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-between;
   align-content: stretch;
   /* flex-wrap: wrap; */
   align-items: stretch;
-  height: 100%; 
+  flex-basis: 100px;
+  height: 100%;
+
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 0%;
+  
+}
+.item1 {
+  display: flex;
+  margin-bottom: 0%;
+  height: 100%;
 }
 
 header {
-  background-color: aquamarine;
+  background-color: rgba(0, 0, 0, 0.58);
   padding: 2rem;
   padding-top: 3rem;
+  font-size: 110%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+ 
 }
-/* todo rename  */
-.low {
-    margin-top: 0;
+.text-color {
+   color: rgba(225, 190, 231, 0.37);
+   padding-left: 9%;
+   font-size: 90%;
 }
-/* todo rename  */
+
 .hight {
     margin-bottom: 0;
+    color: rgba(225, 190, 231, 0.37);
+    font-size: 90%;
+}
+main {
+  background-color: rgba(0,0,0,.025);
+  padding-left: 10%;
+  height: 100%;
+}
+.padding {
+  font-size: 200%;
+  text-decoration: underline;
+  color: rgba(66, 66, 66, 0.7);
+}
+.text {
+  font-size: 120%;
+  font-style: italic;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-decoration {
+  text-decoration:underline;
+  font-variant: small-caps;
+  color: rgba(250, 219, 216, 0.3);
+}
+h2 {
+  color: rgba(236, 240, 241, 0.3);
+  margin: 0;
+}
+
+pre {
+  background-color: rgba(242, 215, 213, 0.5);
+  border-left: 8px solid rgba(230, 176, 170);
+  color: rgba(100, 30, 22, 0.8);
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-variant: small-caps;
+}
+footer {
+  background-color: rgba(242, 215, 213, 0.2);
+  padding: 1;
+}
+.footer {
+  /* padding-top: 10%; */
+  color: rgba(66, 66, 66, 0.7);
+  text-decoration:underline;
+  font-variant: small-caps;
+  font-size: 19px;
+  animation: forwards;
+}
+@keyframes color-change {
+  0% {
+    color: rgba(66, 66, 66, 0.7);
+  }
+  25% {
+    color: rgba(230, 176, 170);
+  }
+  25% {
+    color: rgba(225, 190, 231, 0.37);
+  }
+
+  100% {
+    color: rgba(66, 66, 66, 0.7);
+  }
+}
+.footer {
+  animation: color-change 5s infinite;
 }
