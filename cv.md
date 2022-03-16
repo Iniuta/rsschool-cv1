@@ -12,9 +12,10 @@ I have a degree in psychology, and my extensive experience in this area helps me
 ---
 ## **Skills and Proficiency:**
 * **HTML5** - beginner
-* **CSS3** - novice
+* **CSS3** - beginner
 * **Git, GitHub** - beginner
 * **VS Code** - beginner
+* **JS** - beginner
 ---
   ## **Code example:**
   *The first task from Codewars*
@@ -29,7 +30,8 @@ function multiply(a, b) {
   * Psychologist
 ---
 ## **Courses:**
-*  RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+*  RS Schools Course «JavaScript/Front-end. Stage 0»
+*  RS Schools Course «JavaScript/Front-end. 2022Q1» (in progress)
 ---
 ## **Languages:**
 1. Russian - Native
