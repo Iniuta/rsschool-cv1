@@ -1,0 +1,146 @@
+body,
+html {
+  margin: auto;
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 650px) {
+  .flex-container {
+    flex-direction: row;
+  }
+}
+
+.flex-item {
+  width: 100%;
+}
+
+.item-1 {
+  background-color: rgba(0, 0, 0, 0.56);
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.item-2 {
+  background-color: rgba(255, 255, 240, 0.6);
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.item-3 {
+  background-color: rgba(192, 192, 192, 0.8);
+}
+
+h1 {
+  color: rgba(188, 143, 143, 0.8);
+  font-size: 30px;
+  text-decoration: underline;
+  padding-left: 2.5%;
+  margin-bottom: 0;
+}
+
+.photo {
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+.menu {
+  float: right;
+  padding-right: 40px;
+  font-size: 20px;
+  color: rgba(255, 228, 225, 0.7);
+}
+
+li > nav > a {
+  color: rgb(255, 228, 225);
+}
+
+.h-2 {
+  color: rgba(100, 30, 22, 0.6);
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+p {
+  text-align: left;
+  font-size: 25px;
+  padding-left: 25rem;
+  padding-top: 2rem;
+  color: rgba(160, 82, 45, 0.7);
+}
+
+.list {
+  text-align: left;
+  font-size: 25px;
+  padding-left: 25rem;
+  padding-top: 2rem;
+  color: rgba(160, 82, 45, 0.7);
+}
+
+pre {
+  background-color: rgba(77, 182, 172, 0.1);
+  border-left: 8px solid rgba(0, 77, 64, 0.4);
+  color: rgba(100, 30, 22, 0.8);
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-variant: small-caps;
+  margin-left: 20rem;
+  margin-right: 30rem;
+}
+
+footer {
+  text-decoration: underline;
+  font-variant: small-caps;
+  font-size: 19px;
+}
+
+h2 {
+  text-decoration: underline;
+  font-variant: small-caps;
+  font-size: 19px;
+  padding-left: 2rem;
+}
+
+.logo {
+  float: right;
+  height: 10%;
+}
+
+.link-git {
+  animation: color-change 2s infinite;
+}
+
+.footer-contact-information {
+  float: left;
+}
+
+@keyframes color-change {
+  0% {
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    color: rgb(255, 165, 0);
+  }
+
+  25% {
+    color: rgb(255, 0, 0)
+  }
+
+  100% {
+    color: rgb(47, 79, 79);
+  }
+}
+
+ul {
+  list-style-type: none;
+}
